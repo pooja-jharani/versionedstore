@@ -150,8 +150,10 @@ and risking the crash-recovery guarantees above.
   sha256sum bin/versionedstore
   ```
   `-trimpath` strips the local build path from the binary so the hash
-  doesn't depend on which machine/directory it was built in. Run this
+  doesn't depend on which machine/directory it was built in.
+
 Build 1: 43217A2655077D8571F5951F9DCCBB04A06627B991726F1EF5081CF9972DB64B
+
 Build 2: 43217A2655077D8571F5951F9DCCBB04A06627B991726F1EF5081CF9972DB64B
 
 ## Submission checklist mapping
